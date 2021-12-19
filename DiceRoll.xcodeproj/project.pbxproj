@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E75C214125D769A1003AA6A1 /* Swift DiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift DiceRoll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75C214125D769A1003AA6A1 /* DiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75C214425D769A1003AA6A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E75C214625D769A1003AA6A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E75C214825D769A1003AA6A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		E75C215025D769A6003AA6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75C215325D769A6003AA6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E75C215525D769A6003AA6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E75C215A25D769A6003AA6A1 /* Swift DiceRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift DiceRollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75C215A25D769A6003AA6A1 /* DiceRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75C215E25D769A6003AA6A1 /* Swift_DiceRollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DiceRollTests.swift; sourceTree = "<group>"; };
 		E75C216025D769A6003AA6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E75C216525D769A6003AA6A1 /* Swift DiceRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift DiceRollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75C216525D769A6003AA6A1 /* DiceRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75C216925D769A6003AA6A1 /* Swift_DiceRollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DiceRollUITests.swift; sourceTree = "<group>"; };
 		E75C216B25D769A6003AA6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		E75C213825D769A1003AA6A1 = {
 			isa = PBXGroup;
 			children = (
-				E75C214325D769A1003AA6A1 /* Swift DiceRoll */,
-				E75C215D25D769A6003AA6A1 /* Swift DiceRollTests */,
-				E75C216825D769A6003AA6A1 /* Swift DiceRollUITests */,
+				E75C214325D769A1003AA6A1 /* DiceRoll */,
+				E75C215D25D769A6003AA6A1 /* DiceRollTests */,
+				E75C216825D769A6003AA6A1 /* DiceRollUITests */,
 				E75C214225D769A1003AA6A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		E75C214225D769A1003AA6A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E75C214125D769A1003AA6A1 /* Swift DiceRoll.app */,
-				E75C215A25D769A6003AA6A1 /* Swift DiceRollTests.xctest */,
-				E75C216525D769A6003AA6A1 /* Swift DiceRollUITests.xctest */,
+				E75C214125D769A1003AA6A1 /* DiceRoll.app */,
+				E75C215A25D769A6003AA6A1 /* DiceRollTests.xctest */,
+				E75C216525D769A6003AA6A1 /* DiceRollUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E75C214325D769A1003AA6A1 /* Swift DiceRoll */ = {
+		E75C214325D769A1003AA6A1 /* DiceRoll */ = {
 			isa = PBXGroup;
 			children = (
 				E75C214425D769A1003AA6A1 /* AppDelegate.swift */,
@@ -110,33 +110,33 @@
 				E75C215525D769A6003AA6A1 /* Info.plist */,
 				E75C214D25D769A1003AA6A1 /* Swift_DiceRoll.xcdatamodeld */,
 			);
-			path = "Swift DiceRoll";
+			path = DiceRoll;
 			sourceTree = "<group>";
 		};
-		E75C215D25D769A6003AA6A1 /* Swift DiceRollTests */ = {
+		E75C215D25D769A6003AA6A1 /* DiceRollTests */ = {
 			isa = PBXGroup;
 			children = (
 				E75C215E25D769A6003AA6A1 /* Swift_DiceRollTests.swift */,
 				E75C216025D769A6003AA6A1 /* Info.plist */,
 			);
-			path = "Swift DiceRollTests";
+			path = DiceRollTests;
 			sourceTree = "<group>";
 		};
-		E75C216825D769A6003AA6A1 /* Swift DiceRollUITests */ = {
+		E75C216825D769A6003AA6A1 /* DiceRollUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E75C216925D769A6003AA6A1 /* Swift_DiceRollUITests.swift */,
 				E75C216B25D769A6003AA6A1 /* Info.plist */,
 			);
-			path = "Swift DiceRollUITests";
+			path = DiceRollUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E75C214025D769A1003AA6A1 /* Swift DiceRoll */ = {
+		E75C214025D769A1003AA6A1 /* DiceRoll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E75C216E25D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "Swift DiceRoll" */;
+			buildConfigurationList = E75C216E25D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "DiceRoll" */;
 			buildPhases = (
 				E75C213D25D769A1003AA6A1 /* Sources */,
 				E75C213E25D769A1003AA6A1 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Swift DiceRoll";
+			name = DiceRoll;
 			productName = "Swift DiceRoll";
-			productReference = E75C214125D769A1003AA6A1 /* Swift DiceRoll.app */;
+			productReference = E75C214125D769A1003AA6A1 /* DiceRoll.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E75C215925D769A6003AA6A1 /* Swift DiceRollTests */ = {
+		E75C215925D769A6003AA6A1 /* DiceRollTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E75C217125D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "Swift DiceRollTests" */;
+			buildConfigurationList = E75C217125D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "DiceRollTests" */;
 			buildPhases = (
 				E75C215625D769A6003AA6A1 /* Sources */,
 				E75C215725D769A6003AA6A1 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				E75C215C25D769A6003AA6A1 /* PBXTargetDependency */,
 			);
-			name = "Swift DiceRollTests";
+			name = DiceRollTests;
 			productName = "Swift DiceRollTests";
-			productReference = E75C215A25D769A6003AA6A1 /* Swift DiceRollTests.xctest */;
+			productReference = E75C215A25D769A6003AA6A1 /* DiceRollTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E75C216425D769A6003AA6A1 /* Swift DiceRollUITests */ = {
+		E75C216425D769A6003AA6A1 /* DiceRollUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E75C217425D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "Swift DiceRollUITests" */;
+			buildConfigurationList = E75C217425D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "DiceRollUITests" */;
 			buildPhases = (
 				E75C216125D769A6003AA6A1 /* Sources */,
 				E75C216225D769A6003AA6A1 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				E75C216725D769A6003AA6A1 /* PBXTargetDependency */,
 			);
-			name = "Swift DiceRollUITests";
+			name = DiceRollUITests;
 			productName = "Swift DiceRollUITests";
-			productReference = E75C216525D769A6003AA6A1 /* Swift DiceRollUITests.xctest */;
+			productReference = E75C216525D769A6003AA6A1 /* DiceRollUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E75C213C25D769A1003AA6A1 /* Build configuration list for PBXProject "Swift DiceRoll" */;
+			buildConfigurationList = E75C213C25D769A1003AA6A1 /* Build configuration list for PBXProject "DiceRoll" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E75C214025D769A1003AA6A1 /* Swift DiceRoll */,
-				E75C215925D769A6003AA6A1 /* Swift DiceRollTests */,
-				E75C216425D769A6003AA6A1 /* Swift DiceRollUITests */,
+				E75C214025D769A1003AA6A1 /* DiceRoll */,
+				E75C215925D769A6003AA6A1 /* DiceRollTests */,
+				E75C216425D769A6003AA6A1 /* DiceRollUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		E75C215C25D769A6003AA6A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E75C214025D769A1003AA6A1 /* Swift DiceRoll */;
+			target = E75C214025D769A1003AA6A1 /* DiceRoll */;
 			targetProxy = E75C215B25D769A6003AA6A1 /* PBXContainerItemProxy */;
 		};
 		E75C216725D769A6003AA6A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E75C214025D769A1003AA6A1 /* Swift DiceRoll */;
+			target = E75C214025D769A1003AA6A1 /* DiceRoll */;
 			targetProxy = E75C216625D769A6003AA6A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3PW95J64Q;
-				INFOPLIST_FILE = "Swift DiceRoll/Info.plist";
+				INFOPLIST_FILE = DiceRoll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3PW95J64Q;
-				INFOPLIST_FILE = "Swift DiceRoll/Info.plist";
+				INFOPLIST_FILE = DiceRoll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift DiceRoll.app/Swift DiceRoll";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRoll.app/DiceRoll";
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift DiceRoll.app/Swift DiceRoll";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRoll.app/DiceRoll";
 			};
 			name = Release;
 		};
@@ -557,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E75C213C25D769A1003AA6A1 /* Build configuration list for PBXProject "Swift DiceRoll" */ = {
+		E75C213C25D769A1003AA6A1 /* Build configuration list for PBXProject "DiceRoll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75C216C25D769A6003AA6A1 /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E75C216E25D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "Swift DiceRoll" */ = {
+		E75C216E25D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "DiceRoll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75C216F25D769A6003AA6A1 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E75C217125D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "Swift DiceRollTests" */ = {
+		E75C217125D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "DiceRollTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75C217225D769A6003AA6A1 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E75C217425D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "Swift DiceRollUITests" */ = {
+		E75C217425D769A6003AA6A1 /* Build configuration list for PBXNativeTarget "DiceRollUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75C217525D769A6003AA6A1 /* Debug */,
