@@ -101,6 +101,7 @@
 		E75C214325D769A1003AA6A1 /* DiceRoll */ = {
 			isa = PBXGroup;
 			children = (
+				F4D79768276F0CBC0034A35C /* New Group */,
 				E75C214425D769A1003AA6A1 /* AppDelegate.swift */,
 				E75C214625D769A1003AA6A1 /* SceneDelegate.swift */,
 				E75C214825D769A1003AA6A1 /* ViewController.swift */,
@@ -129,6 +130,13 @@
 				E75C216B25D769A6003AA6A1 /* Info.plist */,
 			);
 			path = DiceRollUITests;
+			sourceTree = "<group>";
+		};
+		F4D79768276F0CBC0034A35C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
