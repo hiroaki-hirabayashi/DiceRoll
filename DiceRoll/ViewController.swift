@@ -30,10 +30,6 @@ final class ViewController: UIViewController {
         rightDiceNumber = rightDiceNumber - 1
         
         print(Int.random(in: 1 ... 10))
-        
-        
-        
-        
     }
     
 }
