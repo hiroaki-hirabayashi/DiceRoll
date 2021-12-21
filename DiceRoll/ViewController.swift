@@ -29,7 +29,7 @@ final class ViewController: UIViewController {
         leftDiceNumber = leftDiceNumber + 1
         rightDiceNumber = rightDiceNumber - 1
         
-        print(Int.random(in: 1...10))
+        print(Int.random(in: 1 ... 10))
         
     }
     
